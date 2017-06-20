@@ -3,4 +3,6 @@ use_frameworks!
 
 target 'Town' do
     pod 'SnapKit', '~> 3.2.0'
+    pod 'Kingfisher', '~> 3.10.1'
+    pod 'SDWebImage', '~> 4.0.0'
 end

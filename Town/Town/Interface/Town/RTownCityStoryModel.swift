@@ -10,12 +10,24 @@ import UIKit
 
 
 class RTownCityStoryModel: NSObject {
-    let time = String()
-    let address = String()
-    let name = String()
-    let auther = String()
-    let seeNum = String()
-    let likeNum = String()
-    let bgImage = String()
-    let autherImage = String()
+    var time = String()
+    var address = String()
+    var name = String()
+    var auther = String()
+    var seeNum = String()
+    var likeNum = String()
+    var isLike = Bool()
+    var bgThumbnailImage = String()
+    var bgoriginalImage = String()
+    var autherImage = String()
+}
+
+
+class RTownLocationSetModel: NSObject {
+
+    var name = String()
+    var coverImage = String()
+    var autherImage = String()
+    var seeNum = String()
+
 }

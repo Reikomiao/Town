@@ -4,7 +4,17 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Kingfisher.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-Town.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SDWebImage.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -17,12 +27,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>32894D67D58530D35805603ED16155A1</key>
+		<key>2F0C0F810568D3E82219429D9D870F04</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8F2BA6C1C2A0D3AF12A933D2F384E5A3</key>
+		<key>4C6E6B68436D596D1A2EBD71975BAC4F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EE67B0ED67ADCDFB42F8D8EAD3E0D8F1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F5E3109A94B36DE6C108C1A90D6FF37F</key>
 		<dict>
 			<key>primary</key>
 			<true/>

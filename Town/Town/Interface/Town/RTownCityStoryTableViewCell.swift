@@ -27,7 +27,17 @@ class RTownCityStoryTableViewCell: UITableViewCell {
     @IBOutlet weak var likeNumLabel: UILabel!
     // 看的人数
     @IBOutlet weak var seeNumLabel: UILabel!
-    
+    var cityStoryModel = RTownCityStoryModel(){
+        didSet {
+            timeLabel.text = cityStoryModel.time;
+            addressLabel.text = cityStoryModel.address;
+            sceneryLabel.text = cityStoryModel.name;
+            authorLabel.text = cityStoryModel.auther;
+            autherIconImageView.sd_setImage(with: URL.init(string:          imageDomain + cityStoryModel.autherImage))
+            cityBackgroundImageView.sd_setImage(with: URL.init(string: imageDomain + cityStoryModel.bgoriginalImage))
+        }
+        
+    }
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -38,6 +48,7 @@ class RTownCityStoryTableViewCell: UITableViewCell {
     }
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
+        selectionStyle = .none
 
         // Configure the view for the selected state
     }

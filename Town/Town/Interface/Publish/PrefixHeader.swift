@@ -12,6 +12,9 @@ let screenWidth = UIScreen.main.bounds.size.width
 let screenHeight = UIScreen.main.bounds.size.height
 // 255,222,100
 let mainColor:UIColor = UIColor.init(red: 255 / 255, green: 210 / 255, blue: 45 / 255, alpha: 1)
+let viewBGColor:UIColor = UIColor.init(red: 250 / 255, green: 250 / 255, blue: 250 / 255, alpha: 1)
+
+let imageDomain = "http://s3.cn-north-1.amazonaws.com.cn/res.augmn.cn/"
 
 extension UIColor{
 
