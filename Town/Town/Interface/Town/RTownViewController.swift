@@ -10,7 +10,7 @@ import UIKit
 import SDWebImage
 import Kingfisher
 
-class RTownViewController: UIViewController,UITableViewDelegate,UITableViewDataSource{
+class RTownViewController: RViewController,UITableViewDelegate,UITableViewDataSource{
   
     enum  SelectedType{
         case cityStory
@@ -365,6 +365,22 @@ class RTownViewController: UIViewController,UITableViewDelegate,UITableViewDataS
         
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        switch selectedType {
+        case .cityStory:
+            let model = dataArray[indexPath.row] as! RTownCityStoryModel
+            let detailVC = RTownDetailViewController()
+            detailVC.coverImage = model.bgoriginalImage
+            superNavigationController().pushViewController(detailVC, animated: true)
+            
+//            navigationController?.pushViewController(detailVC, animated: true)
+            
+        case .venuebook:
+            let model = dataArray[indexPath.row] as! RTownLocationSetModel
+            let detailVC = RTownDetailViewController()
+            detailVC.coverImage = model.coverImage;
+            navigationController?.pushViewController(detailVC, animated: true)
+        }
+        
         
     }
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {

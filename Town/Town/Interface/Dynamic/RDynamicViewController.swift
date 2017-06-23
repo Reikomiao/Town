@@ -8,7 +8,7 @@
 
 import UIKit
 
-class RDynamicViewController: UIViewController {
+class RDynamicViewController: RViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

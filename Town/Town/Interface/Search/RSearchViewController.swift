@@ -8,7 +8,7 @@
 
 import UIKit
 
-class RSearchViewController: UIViewController {
+class RSearchViewController: RViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

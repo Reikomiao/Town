@@ -17,9 +17,18 @@ class RHomeViewController: UIViewController,UIScrollViewDelegate {
     var buttonArray = [UIButton]()
 
 
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        navigationController?.setNavigationBarHidden(true, animated: animated)
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         viewControllers = [RTownViewController(),RDynamicViewController(),RSearchViewController(),RMessageViewController(),RMineViewController(),RPublishViewController()]
+        for vc in viewControllers {
+            addChildViewController(vc)
+        }
         addsubViews();
 
         
@@ -180,6 +189,12 @@ class RHomeViewController: UIViewController,UIScrollViewDelegate {
             
         }
     }
+    
+//    override func viewWillDisappear(_ animated: Bool) {
+//        super.viewWillDisappear(animated)
+//        navigationController?.setNavigationBarHidden(false, animated: animated)
+//
+//    }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

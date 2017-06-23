@@ -8,7 +8,7 @@
 
 import UIKit
 
-class RMessageViewController: UIViewController {
+class RMessageViewController: RViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

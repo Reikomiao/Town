@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		540653901EFA699500AA08A3 /* RTownDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5406538F1EFA699500AA08A3 /* RTownDetailViewController.swift */; };
 		5432BF1C1EEABD7900920F2E /* RTownCityStoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5432BF1B1EEABD7900920F2E /* RTownCityStoryModel.swift */; };
 		5448DEA51EF8F935006AB680 /* RTownLocationSetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5448DEA31EF8F935006AB680 /* RTownLocationSetTableViewCell.swift */; };
 		5448DEA61EF8F935006AB680 /* RTownLocationSetTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5448DEA41EF8F935006AB680 /* RTownLocationSetTableViewCell.xib */; };
@@ -56,6 +57,7 @@
 
 /* Begin PBXFileReference section */
 		4F28F954EBCAC7C3873AF74B /* Pods-Town.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Town.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Town/Pods-Town.debug.xcconfig"; sourceTree = "<group>"; };
+		5406538F1EFA699500AA08A3 /* RTownDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RTownDetailViewController.swift; sourceTree = "<group>"; };
 		5432BF1B1EEABD7900920F2E /* RTownCityStoryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RTownCityStoryModel.swift; sourceTree = "<group>"; };
 		5448DEA31EF8F935006AB680 /* RTownLocationSetTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RTownLocationSetTableViewCell.swift; sourceTree = "<group>"; };
 		5448DEA41EF8F935006AB680 /* RTownLocationSetTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RTownLocationSetTableViewCell.xib; sourceTree = "<group>"; };
@@ -288,6 +290,7 @@
 				54F26A211EF7B512003EE332 /* RTownCodeModel.swift */,
 				5448DEA31EF8F935006AB680 /* RTownLocationSetTableViewCell.swift */,
 				5448DEA41EF8F935006AB680 /* RTownLocationSetTableViewCell.xib */,
+				5406538F1EFA699500AA08A3 /* RTownDetailViewController.swift */,
 			);
 			path = Town;
 			sourceTree = "<group>";
@@ -508,6 +511,7 @@
 				54F26A221EF7B512003EE332 /* RTownCodeModel.swift in Sources */,
 				5453B2AF1ED68944008B7582 /* RTownViewController.swift in Sources */,
 				5469CC3C1EC30C4500CCA244 /* AppDelegate.swift in Sources */,
+				540653901EFA699500AA08A3 /* RTownDetailViewController.swift in Sources */,
 				5453B2C91ED6D757008B7582 /* RHomeViewController.swift in Sources */,
 				546963501EEAA2B50092724E /* RNetworkRequest.swift in Sources */,
 				5453B2CD1ED6D774008B7582 /* RMessageViewController.swift in Sources */,
@@ -677,6 +681,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 5AQGGJ35C4;
 				INFOPLIST_FILE = "$(SRCROOT)/Town/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wecash.Town;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -693,6 +698,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 5AQGGJ35C4;
 				INFOPLIST_FILE = "$(SRCROOT)/Town/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wecash.Town;
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class RPublishViewController: UIViewController {
+class RPublishViewController: RViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

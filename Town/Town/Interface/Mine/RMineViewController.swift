@@ -8,7 +8,7 @@
 
 import UIKit
 
-class RMineViewController: UIViewController {
+class RMineViewController: RViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
