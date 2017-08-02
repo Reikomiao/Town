@@ -13,6 +13,10 @@ class RMessageViewController: RViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = UIColor.blue;
+        for value in 0...3  {
+           print(value)
+        }
+
 
         // Do any additional setup after loading the view.
     }

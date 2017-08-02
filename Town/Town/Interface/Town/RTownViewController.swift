@@ -355,7 +355,6 @@ class RTownViewController: RViewController,UITableViewDelegate,UITableViewDataSo
                 cell.locationSetModel = model;
             }
             return cell
-        default: break
             
         }
         return UITableViewCell()

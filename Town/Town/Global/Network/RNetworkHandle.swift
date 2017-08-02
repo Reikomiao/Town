@@ -1,9 +1,8 @@
 //
 //  RNetworkHandle.swift
-//  WELivenessSDK
 //
 //  Created by 冯振玲 on 2017/6/9.
-//  Copyright © 2017年 wecash. All rights reserved.
+//  Copyright © 2017年 Reiko. All rights reserved.
 //
 
 import UIKit

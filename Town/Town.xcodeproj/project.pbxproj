@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		540304E81F00B31F002E1040 /* RMineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540304E61F00B31F002E1040 /* RMineViewController.swift */; };
+		540304E91F00B31F002E1040 /* RMineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 540304E71F00B31F002E1040 /* RMineViewController.xib */; };
+		540304EB1F00E760002E1040 /* RLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540304EA1F00E760002E1040 /* RLoginViewController.swift */; };
+		540304ED1F00FAD2002E1040 /* RMineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540304EC1F00FAD2002E1040 /* RMineView.swift */; };
 		540653901EFA699500AA08A3 /* RTownDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5406538F1EFA699500AA08A3 /* RTownDetailViewController.swift */; };
 		5432BF1C1EEABD7900920F2E /* RTownCityStoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5432BF1B1EEABD7900920F2E /* RTownCityStoryModel.swift */; };
 		5448DEA51EF8F935006AB680 /* RTownLocationSetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5448DEA31EF8F935006AB680 /* RTownLocationSetTableViewCell.swift */; };
@@ -17,7 +21,6 @@
 		5453B2CB1ED6D764008B7582 /* RDynamicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5453B2CA1ED6D764008B7582 /* RDynamicViewController.swift */; };
 		5453B2CD1ED6D774008B7582 /* RMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5453B2CC1ED6D774008B7582 /* RMessageViewController.swift */; };
 		5453B2CF1ED6D782008B7582 /* RSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5453B2CE1ED6D782008B7582 /* RSearchViewController.swift */; };
-		5453B2D11ED6D793008B7582 /* RMineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5453B2D01ED6D793008B7582 /* RMineViewController.swift */; };
 		5453B2D31ED6D880008B7582 /* RPublishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5453B2D21ED6D880008B7582 /* RPublishViewController.swift */; };
 		546963481EEA7E2D0092724E /* RTownCityStoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546963461EEA7E2D0092724E /* RTownCityStoryTableViewCell.swift */; };
 		546963491EEA7E2D0092724E /* RTownCityStoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 546963471EEA7E2D0092724E /* RTownCityStoryTableViewCell.xib */; };
@@ -57,6 +60,10 @@
 
 /* Begin PBXFileReference section */
 		4F28F954EBCAC7C3873AF74B /* Pods-Town.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Town.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Town/Pods-Town.debug.xcconfig"; sourceTree = "<group>"; };
+		540304E61F00B31F002E1040 /* RMineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMineViewController.swift; sourceTree = "<group>"; };
+		540304E71F00B31F002E1040 /* RMineViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RMineViewController.xib; sourceTree = "<group>"; };
+		540304EA1F00E760002E1040 /* RLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RLoginViewController.swift; sourceTree = "<group>"; };
+		540304EC1F00FAD2002E1040 /* RMineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMineView.swift; sourceTree = "<group>"; };
 		5406538F1EFA699500AA08A3 /* RTownDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RTownDetailViewController.swift; sourceTree = "<group>"; };
 		5432BF1B1EEABD7900920F2E /* RTownCityStoryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RTownCityStoryModel.swift; sourceTree = "<group>"; };
 		5448DEA31EF8F935006AB680 /* RTownLocationSetTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RTownLocationSetTableViewCell.swift; sourceTree = "<group>"; };
@@ -67,7 +74,6 @@
 		5453B2CA1ED6D764008B7582 /* RDynamicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RDynamicViewController.swift; sourceTree = "<group>"; };
 		5453B2CC1ED6D774008B7582 /* RMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMessageViewController.swift; sourceTree = "<group>"; };
 		5453B2CE1ED6D782008B7582 /* RSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSearchViewController.swift; sourceTree = "<group>"; };
-		5453B2D01ED6D793008B7582 /* RMineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMineViewController.swift; sourceTree = "<group>"; };
 		5453B2D21ED6D880008B7582 /* RPublishViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RPublishViewController.swift; sourceTree = "<group>"; };
 		546963461EEA7E2D0092724E /* RTownCityStoryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RTownCityStoryTableViewCell.swift; sourceTree = "<group>"; };
 		546963471EEA7E2D0092724E /* RTownCityStoryTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RTownCityStoryTableViewCell.xib; sourceTree = "<group>"; };
@@ -257,7 +263,10 @@
 		5469CC311EC30C4500CCA244 /* Mine */ = {
 			isa = PBXGroup;
 			children = (
-				5453B2D01ED6D793008B7582 /* RMineViewController.swift */,
+				540304E61F00B31F002E1040 /* RMineViewController.swift */,
+				540304E71F00B31F002E1040 /* RMineViewController.xib */,
+				540304EA1F00E760002E1040 /* RLoginViewController.swift */,
+				540304EC1F00FAD2002E1040 /* RMineView.swift */,
 			);
 			path = Mine;
 			sourceTree = "<group>";
@@ -430,6 +439,7 @@
 			files = (
 				5469CC431EC30C4500CCA244 /* Info.plist in Resources */,
 				5469CC421EC30C4500CCA244 /* Main.storyboard in Resources */,
+				540304E91F00B31F002E1040 /* RMineViewController.xib in Resources */,
 				5469CC401EC30C4500CCA244 /* Assets.xcassets in Resources */,
 				546963491EEA7E2D0092724E /* RTownCityStoryTableViewCell.xib in Resources */,
 				5469CC411EC30C4500CCA244 /* LaunchScreen.storyboard in Resources */,
@@ -518,11 +528,13 @@
 				5469CC3F1EC30C4500CCA244 /* RViewController.swift in Sources */,
 				5453B2CB1ED6D764008B7582 /* RDynamicViewController.swift in Sources */,
 				5469634E1EEA8A830092724E /* RNetworkHandle.swift in Sources */,
+				540304EB1F00E760002E1040 /* RLoginViewController.swift in Sources */,
 				5432BF1C1EEABD7900920F2E /* RTownCityStoryModel.swift in Sources */,
 				5453B2D31ED6D880008B7582 /* RPublishViewController.swift in Sources */,
+				540304E81F00B31F002E1040 /* RMineViewController.swift in Sources */,
 				546963481EEA7E2D0092724E /* RTownCityStoryTableViewCell.swift in Sources */,
-				5453B2D11ED6D793008B7582 /* RMineViewController.swift in Sources */,
 				5469CC3D1EC30C4500CCA244 /* RNavigationViewController.swift in Sources */,
+				540304ED1F00FAD2002E1040 /* RMineView.swift in Sources */,
 				5469CC3E1EC30C4500CCA244 /* RTabBarViewController.swift in Sources */,
 				5448DEA51EF8F935006AB680 /* RTownLocationSetTableViewCell.swift in Sources */,
 				5453B2CF1ED6D782008B7582 /* RSearchViewController.swift in Sources */,
@@ -683,7 +695,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Town/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wecash.Town;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Reiko.Town;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
@@ -700,7 +712,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Town/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wecash.Town;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Reiko.Town;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -714,7 +726,7 @@
 				DEVELOPMENT_TEAM = 5AQGGJ35C4;
 				INFOPLIST_FILE = TownTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wecash.TownTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Reiko.TownTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Town.app/Town";
@@ -729,7 +741,7 @@
 				DEVELOPMENT_TEAM = 5AQGGJ35C4;
 				INFOPLIST_FILE = TownTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wecash.TownTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Reiko.TownTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Town.app/Town";
@@ -743,7 +755,7 @@
 				DEVELOPMENT_TEAM = 5AQGGJ35C4;
 				INFOPLIST_FILE = TownUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wecash.TownUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Reiko.TownUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = Town;
@@ -757,7 +769,7 @@
 				DEVELOPMENT_TEAM = 5AQGGJ35C4;
 				INFOPLIST_FILE = TownUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wecash.TownUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Reiko.TownUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = Town;

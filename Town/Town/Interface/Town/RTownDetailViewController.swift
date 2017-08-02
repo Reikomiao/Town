@@ -99,18 +99,19 @@ class RTownDetailViewController: RViewController {
                 if ratey > 1 {
                     ratey = 1
                 }
-                self.imageScrollView.contentOffset = CGPoint.init(x: self.offx! + screenWidth + (self.offx! * CGFloat(ratey))
-                    , y: 0)
+                
+//                self.imageScrollView.contentOffset = CGPoint.init(x: self.offx! + screenWidth + (self.offx! * CGFloat(ratey))
+//                    , y: 0)
                 
             }else{
                 if ratey < -1 {
                     ratey = -1
                 }
-                self.imageScrollView.contentOffset = CGPoint.init(x: screenWidth + self.offx! * 2 + self.offx! * CGFloat(ratey)
-                    , y: 0)
+//                self.imageScrollView.contentOffset = CGPoint.init(x: screenWidth + self.offx! * 2 + self.offx! * CGFloat(ratey)
+//                    , y: 0)
             }
             
-//            print(gyroData.rotationRate.y)
+            print(gyroData.rotationRate.y)
 
             
         }
